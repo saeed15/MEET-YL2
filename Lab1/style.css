@@ -1,0 +1,49 @@
+ body {
+    background-color: lightblue;
+}
+  img {
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    z-index: -1;
+}
+ul {
+		list-style-type: none;
+		text-align: center;
+	}
+
+	#nav {
+		overflow: hidden;
+		border-width: 6px;
+		padding: 20 30 0 20;
+		background-color: lightblue ;
+	}
+
+	#logo {
+		font-size: 35px;
+	}
+
+	li {
+		float: left;
+		font-family: "Times New Roman", "sans-serif";
+	}
+
+	a {
+		display: block;
+		width: 240px;
+		text-decoration: none;
+		color: black;
+		/**
+		background/borders/box-shadow.
+		**/
+	}
+
+	a:hover {
+		color:rgb(192,192,192)
+		
+	}
+
+	.center {
+		font-size: 32px;
+	}
+
