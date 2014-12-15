@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-from models import Poll, Choice
-def vote-(request):
-	return Httpresponse " S.J 67 "
+from models import poll, answer
+def vote(request):
+	return render(request, 'saeed.html')
 
 
 # Create your views(functions) here.
